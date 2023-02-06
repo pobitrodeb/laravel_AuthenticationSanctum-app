@@ -5,7 +5,7 @@ namespace App\Http\Controllers\API;
 use Illuminate\Http\Request;
 use App\Http\Controllers\API\BaseController as BaseController;
 use App\Models\Product;
-use Validator;
+use Dotenv\Validator;
 use App\Http\Resources\ProductResource;
 
 class ProductController extends BaseController
